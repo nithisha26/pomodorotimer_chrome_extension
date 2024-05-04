@@ -1,0 +1,125 @@
+/* style.css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #cd202d;
+  }
+  
+  .container {
+    width: 300px; /* Adjust width as needed */
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    margin: auto;
+  }
+  
+  .section-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .time-input-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .time-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .time-input-container input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .time-btn-container span {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .btn-focus {
+    background-color: #cb202d;
+    color: #ffffff;
+  }
+  
+  .btn-shortbreak, .btn-longbreak {
+    background-color: #3e3f43;
+    color: #a9a7a7;
+  }
+  
+  .btn-shortbreak:hover, .btn-longbreak:hover {
+    background-color: #5f6063;
+  }
+  
+  #btn-start, #btn-pause {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  #btn-reset {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  
+  /* style.css */
+  
+  /* Add background colors for start and pause buttons */
+  #btn-start, #btn-pause {
+    background-color: #cb202d; /* Change to red */
+    color: #ffffff;
+    padding: 10px 18px; /* Adjust padding */
+  }
+  
+  #btn-start:hover, #btn-pause:hover {
+    background-color: #a61722; /* Darker red on hover */
+  }
+  
+  /* Add red background color for short and long break buttons */
+  .btn-shortbreak, .btn-longbreak {
+    background-color: #cb202d; /* Change to red */
+    color: #ffffff;
+  }
+  
+  .btn-shortbreak:hover, .btn-longbreak:hover {
+    background-color: #a61722; /* Darker red on hover */
+  }
+  
+  
+  
